@@ -1,14 +1,20 @@
 body {
   margin: 0;
   min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  font-family: 'AnkaCoderRegular';
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  color: #FFDF2B;
+  background-color: #4B4B4B;
+  background-image: url("img/logo-bg.png");
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center -600px;
+  background-size: 100%;
+}
+
+nav img {
+  margin-top: -70px;
+  padding-bottom: 70px;
 }
 
 .container {
@@ -18,33 +24,26 @@ body {
 }
 
 .page-header {
-  margin: 0 0 160px;
+  font-family: 'AnkaCoderRegular';
+  font-size: 30px;
+  margin: 0 0 170px;
   padding: 32px 0 32px;
+
 }
 
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: left;
 }
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #FFDF2B;
   text-decoration: none;
-  background-repeat: no-repeat;
-  background-position: left;
 }
 
-.header-email {
-  padding-left: 30px;
-  background-image: url("img/icon-email-header.svg");
-}
 
-.header-phone {
-  padding-left: 25px;
-  background-image: url("img/icon-phone-header.svg");
-}
 
 .hero-image {
   margin-bottom: 620px;
@@ -57,16 +56,25 @@ body {
 
 .heading {
   margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
+  font-family: 'Libre Franklin', sans-serif;
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 100px;
   line-height: 96px;
   font-weight: 400;
 }
 
 .hero-image p {
-  margin: 0;
-  font-size: 32px;
-  line-height: 48px;
+  margin: 0 0 16px;
+  font-family: 'Libre Franklin', sans-serif;
+  -webkit-text-stroke-width: 3px;
+  -webkit-text-stroke-color: #FFDF2B;
+  color: rgba( 255, 255, 255, 0 );
+  text-transform: uppercase;
+  text-align: right;
+  font-size: 102px;
+  line-height: 96px;
+  font-weight: 400;
 }
 
 .intro {
@@ -75,7 +83,7 @@ body {
 
 .subheading {
   margin: 0 0 56px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-family: 'AnkaCoderRegular';
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
@@ -97,6 +105,12 @@ body {
 
 .intro p {
   margin: 0 0 32px;
+}
+
+.skills {
+  max-width: 928px;
+  margin: 0 auto;
+  padding: 0 16px;
 }
 
 .skills-list {
@@ -165,13 +179,13 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   border-radius: 4px;
-  background-color: #288be6;
-  color: #ffffff;
+  background-color: #FFDF2B;
+  color: #000000;
 }
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: #2E2E2E;
   color: #ffffff;
 }
 
